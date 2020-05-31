@@ -110,4 +110,7 @@ dmypy.json
 # env file
 .env
 
+# CSV file
+.csv
+
 # End of https://www.gitignore.io/api/python
