@@ -14,7 +14,6 @@ AS = setting.ACCESS_TOKEN_SECRET
 #Twitterオブジェクトの生成
 auth = tweepy.OAuthHandler(CK, CS)
 auth.set_access_token(AT, AS)
-
 api = tweepy.API(auth)
 
 # ツイート
@@ -32,7 +31,8 @@ for result in results:
     tweet = result.text
     user_info = {'user_id': user_id, 'user_name': user_name, 'tweet': tweet}
     users_list.append(user_info)
- 
+
+    ## フォロー & いいね
     # username = result.user._json['screen_name']
     # try:
     #     api.create_favorite(user_id)
