@@ -1,9 +1,0 @@
-
-Twitterディベロッパツール申請文
-Create a Twitter Bot for engineers to study.
-The purpose is to acquire technology.
-The purpose is to study.
-We are thinking of an implementation that automatically searches for tweets and acquires that data.
-
-
-We will implement a function to automatically search for a specific word, and a function to like or retweet the tweet.
